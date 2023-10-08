@@ -1,0 +1,3 @@
+[submodule "argocd-children-helm-charts"]
+	path = argocd-children-helm-charts
+	url = https://github.com/AndreiMuresan/argocd-children-helm-charts.git

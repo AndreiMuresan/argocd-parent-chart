@@ -26,7 +26,7 @@ appVersion: "1.0.0"
 dependencies:
 - name: child-app-1
   version: 1.0.1
-  repository: "file://dependency-charts/child-app-1"
+  repository: "file://argocd-children-helm-charts/dependency-charts/child-app-1"
 - name: child-app-2
   version: 1.0.1
-  repository: "file://dependency-charts/child-app-2"
+  repository: "file://argocd-children-helm-charts/dependency-charts/child-app-2"
