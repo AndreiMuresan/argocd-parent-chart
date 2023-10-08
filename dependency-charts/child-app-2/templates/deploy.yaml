@@ -4,18 +4,18 @@ metadata:
   creationTimestamp: null
   labels:
     app: nginx
-  name: nginx
+  name: nginx-{{ .Values.name }}
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: nginx
+      app: nginx-{{ .Values.name }}
   strategy: {}
   template:
     metadata:
       creationTimestamp: null
       labels:
-        app: nginx
+        app: nginx-{{ .Values.name }}
     spec:
       containers:
       - image: nginx
