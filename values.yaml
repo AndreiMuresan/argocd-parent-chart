@@ -1,0 +1,4 @@
+child-app-1:
+  name: "parent-chart-level-app1"
+child-app-2:
+  names: "parent-chart-level-app2"

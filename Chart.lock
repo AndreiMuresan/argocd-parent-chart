@@ -1,0 +1,9 @@
+dependencies:
+- name: child-app-1
+  repository: file://dependency-charts/child-app-1
+  version: 1.0.1
+- name: child-app-2
+  repository: file://dependency-charts/child-app-2
+  version: 1.0.1
+digest: sha256:39d647e8c5fbc1ea7a8e96ff6a0793eabd8d84619dfa291f0f2d070ea61a33d4
+generated: "2023-10-08T13:19:03.952521+03:00"
